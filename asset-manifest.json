@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Chrome-Extension/static/css/main.908d81f6.css",
+    "main.js": "/Chrome-Extension/static/js/main.0586b171.js",
+    "static/media/crazybackgroundMusic.mp3": "/Chrome-Extension/static/media/crazybackgroundMusic.997df876b16cd0f94f6f.mp3",
+    "static/media/backgroundMusic.mp3": "/Chrome-Extension/static/media/backgroundMusic.d6eaa0986c7cecbded4e.mp3",
+    "static/media/pressWrong.wav": "/Chrome-Extension/static/media/pressWrong.9d083d7c643182eeb3df.wav",
+    "static/media/buttonSound.wav": "/Chrome-Extension/static/media/buttonSound.02c736a3d1f0d82cb3d6.wav",
+    "static/media/winSoundEffect.mp3": "/Chrome-Extension/static/media/winSoundEffect.008c99d292f0fd6de525.mp3",
+    "static/media/pressRight.wav": "/Chrome-Extension/static/media/pressRight.ebcd1f3e33acef566924.wav",
+    "static/media/loseheheboi.mp3": "/Chrome-Extension/static/media/loseheheboi.5bacc32c74e94284194a.mp3",
+    "index.html": "/Chrome-Extension/index.html",
+    "main.908d81f6.css.map": "/Chrome-Extension/static/css/main.908d81f6.css.map",
+    "main.0586b171.js.map": "/Chrome-Extension/static/js/main.0586b171.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.908d81f6.css",
+    "static/js/main.0586b171.js"
+  ]
+}
