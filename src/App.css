@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* world */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Silkscreen", sans-serif;
+  font-style: normal;
+}
+
+/* app.js */
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.outerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  /* margin: 10px auto; */
+  /* border: 2px solid black; */
+}
+
+/* start.js */
+/* all in tailwind */
+.floating-text {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  } /* Go up */
+  100% {
+    transform: translateY(0);
+  } /* Back to original position */
+}
+
+.colorText {
+  animation: colorText 2s ease-in-out infinite;
+}
+
+@keyframes colorText {
+  0% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.score {
+  animation: rainbow 2s ease-in-out infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  42% {
+    color: green;
+  }
+  57% {
+    color: blue;
+  }
+  71% {
+    color: indigo;
+  }
+  85% {
+    color: violet;
+  }
+  100% {
+    color: red;
+  }
+}
+
+/* setting */
+.urlInput {
+  background: pink;
+  opacity: 0.8;
+}
+
+.setting {
+  font-size: 2em;
+}
+
+.volumeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* stage.js */
+
+.whack-a-mole {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.mole-container {
+  position: relative;
+}
+
+.current-letter {
+  position: absolute;
+  top: -25px; /* Adjust this value to bring it closer to the mole */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 25px; /*original 16px*/
+  /* font-family: "Bungee Tint", sans-serif; */
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mole {
+  width: 50px; /* Set width to 50px */
+  height: 50px; /* Set height to 50px */
+  background-color: rgb(69 26 3);
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  transition: background-color 0.3s;
+  z-index: auto;
+  border-radius: 40%;
+  border-width: 6px;
+  border-color: rgb(180 83 9);
+  box-shadow: 3px 3px 6px;
+  transform: scaleY(0.5);
+}
+
+.mole.visible {
+  background-color: rgb(254 252 232);
+}
+
+.moleAnimation {
+  position: relative;
+  top: 5px;
+  animation-name: mole;
+  animation-duration: 0.8s;
+}
+
+/* continue.js */
+/* all tailwinded */
+
+.button {
+  border: 3px solid black;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.534); /* Change background on hover */
+  position: relative; /* For the after effect */
+  overflow: hidden; /* Contain the ripple effect */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  box-shadow: 3px 3px 6px;
+}
+
+.button:hover {
+  background-color: white; /* Change background on hover */
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.8); /* Scale down on active */
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%; /* Start large */
+  height: 300%; /* Start large */
+  background: rgba(255, 255, 255, 0.3); /* Light ripple color */
+  border-radius: 50%; /* Circular ripple */
+  transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s; /* Smooth transitions */
+  z-index: 0; /* Behind the text */
+  transform: translate(-50%, -50%) scale(0); /* Center and hide */
+}
+
+.button:hover:after {
+  width: 400%; /* Expand on hover */
+  height: 400%; /* Expand on hover */
+  top: 50%; /* Keep centered */
+  left: 50%; /* Keep centered */
+  transform: translate(-50%, -50%) scale(1); /* Show ripple */
+}
+
+.button span {
+  position: relative; /* Ensure text is above ripple */
+  z-index: 1; /* Bring text above the after effect */
+}
+
+/* gameover */
+/* all tailwinded */
+
+@keyframes mole {
+  0% {
+    top: 30px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: 5px;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+.leaderboardInput {
+  @apply relative border-2 my-10 text-xl rounded-md border-black text-center;
+}
