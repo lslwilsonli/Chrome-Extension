@@ -27,4 +27,4 @@ Higher stages come with increased speed.
 Once you reach a higher level compared to your last game, you can choose a level to play in the next game.
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/1b57fbbb-dafe-45bd-8d78-fa0d4f6446ab">
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/293207f4-adf3-4af7-a4a1-641c42fa7b3c">
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/3510b8cf-b35e-4d3a-9641-2d5a2094b902">
