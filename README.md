@@ -20,6 +20,11 @@ Higher stages come with increased speed.
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/860cd32e-5867-4546-b9e4-444ca7e8e5e4">
 
 ### Win & Game Over
+
+Winner can continue to next stage. 
+
+Loser can retry the current stage.
+
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/baade32a-1b41-4a87-9400-6e11ce16fbbb">
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/8d52c672-9096-4e9b-9dbe-b4751287836f">
