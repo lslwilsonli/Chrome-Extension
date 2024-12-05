@@ -6,7 +6,7 @@ Users can simply use the keyboard to type the relevant keystrokes shown on the s
 
 Users can install the game as a Chrome extension.
 
-Try Now: <a href="https://lslwilsonli.github.io/Chrome-Extension/" target="_blank">https://lslwilsonli.github.io/Chrome-Extension/</a>
+Try Now: https://lslwilsonli.github.io/Chrome-Extension/
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/bc68193b-2670-4a46-8175-dafbc2fd02e3">
 
