@@ -29,9 +29,13 @@ Loser can retry the current stage.
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/8d52c672-9096-4e9b-9dbe-b4751287836f">
 
-### Game Record
+### Game Record & Leaderboard
 
 Once you reach a higher level compared to your last game, you can choose a level to play in the next game.
 
+The leaderboard allows users to view the records of other players on the same browser.
+
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/1b57fbbb-dafe-45bd-8d78-fa0d4f6446ab">
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/3510b8cf-b35e-4d3a-9641-2d5a2094b902">
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/085bbe2c-fc27-4b32-91ee-6706056fdc29">
+
